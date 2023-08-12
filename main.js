@@ -4,7 +4,7 @@ var textPosition = 0;
 var flag = true;
 
 loadQuote = () => {
-  const url = 'https://api.quotable.io';
+  const url = 'https://api.quotable.io/random';
 
   fetch(url)
 
